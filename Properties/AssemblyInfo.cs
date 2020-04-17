@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DCS.FiscalDriverBase")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Fiscal Driver Standard Interface")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Alex Hofmann")]
 [assembly: AssemblyProduct("DCS.FiscalDriverBase")]
-[assembly: AssemblyCopyright("Copyright © ML 2019")]
+[assembly: AssemblyCopyright("Copyright © Alex Hofmann 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -39,8 +39,8 @@ using System.Runtime.InteropServices;
  * 1.0.0.1 20190301: Added: bool PrintTransaction(TransactionDTO transaction, ref int invoiceNumber, bool dummyParam = true);
  * 1.0.0.2 20190314: (AleH) Some casing corrections to satisfy standards
  * 1.0.1.0 20190315: (AleH) Overload de OpenTransaction que no usa VBA.Collections
- * 1.0.1.1 20190321: (Braian) iFiscalDriverBase interop 
- * 1.0.1.2 20190325: (Braian) Bug en TransactionDto -> New Product
- * 1.0.1.3 20190326: (Braian) ComVisible=False en OpenTransaction y PrintTransaction
- * 1.0.2.0 20190408: (Braian) Se elimina referencia DCSPosUtils
+ * 1.0.1.1 20190321: (AleH) iFiscalDriverBase interop 
+ * 1.0.1.2 20190325: (AleH) Bug en TransactionDto -> New Product
+ * 1.0.1.3 20190326: (AleH) ComVisible=False en OpenTransaction y PrintTransaction
+ * 1.0.2.0 20190408: (AleH) Se elimina referencia DCSPosUtils
  */
